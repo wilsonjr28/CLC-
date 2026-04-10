@@ -127,10 +127,18 @@ a {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     font-size: 1.8rem;
     font-weight: 900;
     font-family: var(--font-heading);
     letter-spacing: 1.5px;
+}
+
+.nav-logo-img {
+    height: 40px;
+    width: auto;
 }
 
 .logo span {
